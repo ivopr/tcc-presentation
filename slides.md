@@ -56,7 +56,7 @@ src: ./pages/4-outras-ferramentas.mdx
 ---
 
 ---
-src: ./pages/5-comandos-gromacs.mdx
+src: ./pages/5-diagrama-sequencia.mdx
 ---
 
 ---

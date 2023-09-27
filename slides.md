@@ -6,6 +6,9 @@ class: text-center
 highlighter: shiki
 hideInToc: true
 lineNumbers: false
+author: Ivo Henrique Provensi Vieira
+colorSchema: "dark"
+canvasWidth: 1024
 drawings:
   persist: false
 transition: slide-left

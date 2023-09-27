@@ -4,6 +4,7 @@ coverBackgroundUrl: https://www.rondonia.fiocruz.br/wp-content/uploads/2019/03/C
 coverDate: "27 de Setembro de 2023"
 class: text-center
 highlighter: shiki
+hideInToc: true
 lineNumbers: false
 drawings:
   persist: false
@@ -35,6 +36,7 @@ a WEB application for molecular dynamics simulation using GROMACS
 ---
 layout: table-of-contents
 title: Sumário
+hideInToc: true
 ---
 
 ### Sumário
@@ -57,6 +59,10 @@ src: ./pages/4-outras-ferramentas.mdx
 
 ---
 src: ./pages/5-diagrama-sequencia.mdx
+---
+
+---
+src: ./pages/6-comandos-gromacs.mdx
 ---
 
 ---

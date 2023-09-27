@@ -34,9 +34,10 @@ a WEB application for molecular dynamics simulation using GROMACS
 
 ---
 layout: table-of-contents
+title: Sumário
 ---
 
-# Table of contents
+### Sumário
 
 ---
 src: ./pages/1-o-que-e.mdx
@@ -44,6 +45,18 @@ src: ./pages/1-o-que-e.mdx
 
 ---
 src: ./pages/2-simulacao-dinamica-molecular.mdx
+---
+
+---
+src: ./pages/3-gromacs.mdx
+---
+
+---
+src: ./pages/4-outras-ferramentas.mdx
+---
+
+---
+src: ./pages/98-dados-uso-global.mdx
 ---
 
 ---

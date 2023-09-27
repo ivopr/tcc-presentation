@@ -56,6 +56,10 @@ src: ./pages/4-outras-ferramentas.mdx
 ---
 
 ---
+src: ./pages/5-comandos-gromacs.mdx
+---
+
+---
 src: ./pages/98-dados-uso-global.mdx
 ---
 

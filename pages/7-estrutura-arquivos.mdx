@@ -1,0 +1,37 @@
+---
+layout: default
+title: Estrutura de Arquivos em Disco
+---
+
+### Estrutura de Arquivos em Disco
+
+```text {all|2|3|4|5|6-23|24,25|26|all}
+~
+└── VDfiles
+    └── nome_do_usuario
+        ├── APO
+        │   └── 2mu8 // Nome do arquivo .pdb submetido
+        │       └── 2023-07-28T11:43:45 // Data da geração
+        │           ├── figures // Figuras geradas automaticamente para análise
+        │           │   ├── 2mu8_gyrate.png
+        │           │   ├── 2mu8_potentialcg.png
+        │           │   ├── 2mu8_potentialsd.png
+        │           │   └── ...
+        │           ├── run // Arquivos relacionados a execução da simulação
+        │           │   ├── logs // Logs da execução (Apenas GROMACS)
+        │           │   │   └── gmx.log
+        │           │   ├── 2mu8.pdb
+        │           │   ├── 2mu8.gro
+        │           │   ├── 2mu8_potentialcg.xvg
+        │           │   ├── 2mu8_potentialsd.xvg
+        │           │   └── ...
+        │           ├── celery_id
+        │           ├── commands.txt
+        │           ├── status
+        │           └── steps.txt
+        ├── ACPYPE // Pasta com mesma estrutura acima
+        ├── PRODRG // Pasta com mesma estrutura acima
+        └── dynamics.list // Lista com todas as simulações em disco
+```
+
+<!-- ACPYPE e PRODRG possuem alguns arquivos a mais, os Ligantes -->

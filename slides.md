@@ -8,7 +8,7 @@ hideInToc: true
 lineNumbers: false
 author: Ivo Henrique Provensi Vieira
 colorSchema: "dark"
-canvasWidth: 1024
+canvasWidth: 1124
 drawings:
   persist: false
 transition: slide-left
@@ -37,12 +37,14 @@ a WEB application for molecular dynamics simulation using GROMACS
 </div>
 
 ---
-layout: table-of-contents
+layout: default
 title: Sumário
 hideInToc: true
 ---
 
 ### Sumário
+
+<Toc columns={2} maxDepth={2} />
 
 ---
 src: ./pages/1-o-que-e.mdx
@@ -69,9 +71,17 @@ src: ./pages/6-comandos-gromacs.mdx
 ---
 
 ---
+src: ./pages/7-estrutura-arquivos.mdx
+---
+
+---
+src: ./pages/8-screenshots.mdx
+---
+
+---
 src: ./pages/98-dados-uso-global.mdx
 ---
 
 ---
-src: ./pages/99-referencias.mdx
+src: ./pages/99-fim.mdx
 ---

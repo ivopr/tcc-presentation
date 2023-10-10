@@ -5,7 +5,7 @@ title: Estrutura de Arquivos em Disco
 
 ### Estrutura de Arquivos em Disco
 
-```text {all|2|3|4|5|6-23|24,25|26|all}
+```text {all|2|3|4,24,25|5|6-23|26|all}
 ~
 └── VDfiles
     └── nome_do_usuario
@@ -34,4 +34,12 @@ title: Estrutura de Arquivos em Disco
         └── dynamics.list // Lista com todas as simulações em disco
 ```
 
-<!-- ACPYPE e PRODRG possuem alguns arquivos a mais, os Ligantes -->
+<!--
+- Simulações geram arquivos, muitos arquivos, que são utilizados para a analise dos resultados, geração de gráficos através do `grace` e muitas outras coisas, e esses arquivos precisam ser salvos, de uma forma que seja possível acessá-los posteriormente.
+
+- ACPYPE e PRODRG possuem alguns arquivos a mais, porém a estrutura segue a mesma
+
+- APO Proteína é uma proteína sozinha, enquanto ACPYPE e PRODRG são proteínas complexadas, em suma, proteína + ligante.
+
+- ACPYPE e PRODRG são métodos diferentes da preparação do ligante para a proteína.
+-->

@@ -18,7 +18,7 @@ sequenceDiagram
   activate Servidor Backend
   Servidor Backend-->>Web GUI: Retorna uma lista de comandos ordenados
   deactivate Servidor Backend
-  Web GUI-->>Usuário: Envia a lista como um _download_ no formato `.txt`
+  Web GUI-->>Usuário: Envia a lista como um download no formato .txt
   deactivate Web GUI
   deactivate Usuário
 ```
@@ -43,12 +43,12 @@ sequenceDiagram
   activate Web GUI
   Web GUI->>Servidor Backend: Envia os arquivos e parâmetros
   activate Servidor Backend
-  Servidor Backend-->>Web GUI: Retorna informações sobre<br/> a preparaão dos arquivos em disco
+  Servidor Backend-->>Web GUI: Retorna informações sobre<br/> a preparação dos arquivos em disco
   deactivate Servidor Backend
   Web GUI->>Servidor Backend: Solicita a inclusão da simulação recém<br/> preparada na fila de execução
   activate Servidor Backend
   alt Usuário não tem simulação na fila ou em execução
-    Servidor Backend->>Servidor Backend (Worker): Enfilera a simulação solicitada
+    Servidor Backend->>Servidor Backend (Worker): Adiciona a simulação solicitada <br/>na fila de execução
     Servidor Backend-->>Web GUI: Informa sobre o enfileiramento da simulação
   end
   alt Usuário tem simulação na fila ou em execução

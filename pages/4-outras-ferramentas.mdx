@@ -6,11 +6,19 @@ title: Outras ferramentas
 
 ### Outras ferramentas
 
-- ##### Grace: Ferramenta de plotagem 2D para o Sistema de Janelas X.[$^{[2]}$](https://plasma-gate.weizmann.ac.il/Grace/)
+- ##### Grace: Ferramenta de plotagem 2D para o Sistema de Janelas X.
   - ###### Geração de gráficos para analises de simulações.
-- ##### Celery: Fila de Tarefas Distribuida.[$^{[3]}$](https://docs.celeryq.dev/en/stable/)
+- ##### Celery: Fila de Tarefas Distribuida.
   - ###### Execução de simulações de forma controlada e distribuida.
-- ##### Flask: Framework Web para Python[$^{[4]}$](https://docs.celeryq.dev/en/stable/)
+- ##### Flask: Framework Web para Python
   - ###### Codificação do _backend_ em python para execução e geração de simulações.
-- ##### NextJS: Framework React para a Web[$^{[5]}$](https://nextjs.org/)
+- ##### NextJS: Framework React para a Web
   - ###### Codificação do _frontend_, possibilitando a disponibilização de uma interface intuitiva e amigável.
+
+<!--
+- Ponto 1: Gráficos auxiliam no entendimento do que ocorreu e como, dessa forma, o Visual Dynamics dispõe alguns gráficos gerados em tempo de execução automaticamente.
+
+- Ponto 2: Processar muitas coisas em paralelo nem sempre é a solução, ainda mais quando são processos caros computacionalmente. Sendo assim, impomos um limite de simulações executando em paralelo, afim de manter a saúde das máquinas responsáveis e ainda assim manter um tempo de execução aceitável.
+
+- Pontos 3 e 4: Aproveitamos o que já possuíamos em Python com o framework Flask, transformando em um serviço desacoplado da interface de usuário, responsável especificamente por gerenciar simulações, e adicionamos uma aplicação cliente com o Framework NextJS, com uma interface interativa e mais reativa a ações do usuário.
+-->

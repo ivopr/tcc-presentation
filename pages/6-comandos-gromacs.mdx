@@ -34,5 +34,14 @@ echo '10 0' | /usr/local/gromacs/bin/gmx energy -f "2mu8_sd_em.edr" -o "2mu8_pot
 ...
 ```
 
-<!-- Separamos os comandos por blocos, para fácil compreensão do que cada um faz -->
-<!-- Nota-se também que temos a utilização de duas ferramentas CLI, o `gmx`, que é o GROMACS e o `gracebat` que é o Grace -->
+<!--
+- Esse é um exemplo de comandos gerados para uma simulação do tipo APO Proteína, uma proteína sozinha.
+
+- Na execução de simulações para proteínas complexadas temos algumas modificações de arquivos que devem ser feitas, que o VD também automatiza através de ferramentas da linha de comando do Linux, utilizando principalmente a ferramenta `sed`.
+
+- É possível notar uma dependência no Linux, que se da pela maior simplicidade de alcançar a performance máxima do GROMACS nessa plataforma, uma vez que algumas bibliotecas de calculo acelerado não estão disponíveis de forma prática para Windows.
+
+- Separamos os comandos por blocos, para fácil compreensão do que cada um faz
+
+- Nota-se também que temos a utilização de duas ferramentas CLI, o `gmx`, que é o GROMACS e o `gracebat` que é o Grace
+-->
